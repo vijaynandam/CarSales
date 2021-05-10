@@ -145,6 +145,6 @@ public class ShowAllCarsPanel extends JPanel implements ActionListener, ChangeLi
 			carComponents.displayDetails(carList[currentIndex]);
 		}
 		else
-			JOptionPane.showMessageDialog(carSystem, "You can't navigate any further", "Alert", JOptionPane.ERROR_MESSAGE);
+			JOptionPane.showMessageDialog(carSystem, "You can't navigate any further", "Alert -- No Navigation", JOptionPane.ERROR_MESSAGE);
 	}
 }
